@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/time_setting"
+                android:title="Min Time bet. Updates">
+                <menu>
+                    <item
+                        android:id="@+id/time_setting_1"
+                        android:title="1 sec" />
+                    <item
+                        android:id="@+id/time_setting_10"
+                        android:title="10 secs" />
+                    <item
+                        android:id="@+id/time_setting_60"
+                        android:title="60 secs" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/distance_setting"
+                android:title="Min Distance bet. Updates">
+                <menu>
+                    <item
+                        android:id="@+id/distance_setting_1"
+                        android:title="1 meter" />
+                    <item
+                        android:id="@+id/distance_setting_3"
+                        android:title="3 meters" />
+                    <item
+                        android:id="@+id/distance_setting_10"
+                        android:title="10 meters" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+</menu>
